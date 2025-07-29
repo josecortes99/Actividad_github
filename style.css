@@ -4,114 +4,10 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 body {
   font-family: sans-serif;
 }
 
-=======
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-main {
-  padding: 40px;
-}
-
-/* Coder 4: Artículo */
-.tech-article {
-  background: white;
-  padding: 20px;
-  margin-bottom: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.tech-article h1 {
-  margin-bottom: 15px;
-  color: #222;
-}
-
-.tech-article img {
-  width: 100%;
-  height: auto;
-  margin: 20px 0;
-}
-
-/* Coder 5: Servicios con Flexbox */
-.services {
-  background: #ffffff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-}
-
-.services h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.services-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.service {
-  background-color: #f0f0f0;
-  padding: 15px;
-  flex: 1 1 250px;
-  border-radius: 8px;
-}
-
-/* Coder 6: Footer */
-.site-footer {
-  background-color: #222;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-.site-footer a {
-  color: #ddd;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-.site-footer address {
-  font-style: normal;
-  margin: 10px 0;
-  color: #bbb;
-}
-
-.site-footer .social {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-
- /* start coder 25*/
- #riwi_logo{
-    border-radius: 50%;
- }
-/* end coder 25 */
-
-
-.output-- {
-    width: 15%;
-    padding: 1rem;
-    color: cyan;
-    gap: 1rem;
-    background-color: rgb(34, 33, 33);
-    border-radius: 1.25rem;
-    border: 2px solid cyan;
-    box-shadow: 0px 0px 15px cyan
-    0px 0px 15px cyan inset;
-}
-
-/*Header - Coder 1*/
->>>>>>> main
 header {
   background-color: #333;
   color: white;
@@ -165,119 +61,7 @@ header {
     left: 0;
   }
 
-<<<<<<< HEAD
   .nav-links li {
-=======
-.logo img {
-    height: 50px;
-    margin-right: 15px;
-}
-
-.blockquote{
-    border-left: 2px solid black;
-    background-color: #eeeeee;
-    padding-left: 2rem;
-}
-/* Start - Coder 7: Aside */
-.sidebar{
-    display: flex;
-    flex-flow: column;
-    color: black;
-    flex: 0.325;
-    margin-left: 80%;
-    margin-right: 1em;
-    width: auto;
-}
-
-.cards > * {
-    background: cyan;
-}
-
-.sidebar > section{
-    display: flex;
-    flex-flow: column;
-    border: 3px solid black;
-    border-radius: 5px;
-    padding: 0.5rem;
-}
-
-.sidebar section h3{
-    font-weight: 500;
-    font-size: 1.6625rem;
-    display: flex;
-    align-items: center;
-}
-
-.sidebar section .card{
-    border-bottom: 2px solid blue;
-    padding: 1.5rem;
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-}
-
-/* Finish - Coder 7: Aside */
-.virtualClock{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    min-width: 1vh;
-    max-width: 50em;
-    max-height: 50em;
-    justify-self: flex-end;
-    text-align: right;
-    border-radius: 20px;
-    background-color: rgb(58, 68, 53);
-    border: 2px solid whitesmoke;
-    box-shadow: 4px 4px 3px gray;
-
-    color: yellowgreen;
-    
-    
-    h2{
-        border-bottom: 1px solid ;
-        margin: 10%;
-        margin-right: 5%;
-
-        @media (max-width: 570px) {
-            font-size: 2em;
-        }
-
-        @media (max-width: 350px) {
-            font-size: 1em;
-        }
-    }
-
-    .time{
-        margin: 0;
-        padding: 0;
-        letter-spacing: 0.05em;
-        font-size: 4em;
-        padding: 5px 5px;
-
-        
-        @media (max-width: 570px) {
-            font-size: 2em;
-        }
-    }
-
-    .date{
-        margin: 0;
-        padding: 0;
-        letter-spacing: 0.1em;
-        font-size: 2em;
-
-        @media (max-width: 570px) {
-            font-size: 1em;
-        }
-    }
-}
-
-.services{
-    padding: 40px;
-    background-color: rebeccapurple;
->>>>>>> main
     text-align: center;
     padding: 1rem 0;
   }
@@ -290,8 +74,6 @@ header {
     display: flex;
   }
 }
-<<<<<<< HEAD
-=======
 
 .service{
     background-color: white;
@@ -332,4 +114,3 @@ header {
     list-style-type: square;
     list-style-position: inside;
 }
->>>>>>> main
