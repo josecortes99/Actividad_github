@@ -3,49 +3,87 @@
     padding: 0;
 }
 
-.contenedor{
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle,#00f,#0ff);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contenedor .estilos{
-    font-family:fantasy;
-    width: 300px;
-    color: aquamarine;
-    transition: .3s;
-}
-.contenedor .estilos:hover{
-    color: black;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
- /* start coder 6 */
-footer{
-    background-color: #181e4b;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    gap: 10px;
+main {
+  padding: 40px;
 }
 
-footer a{
-    color: #ecf0f6;
-    text-decoration: none;
-    margin: 10px;
+/* Coder 4: Artículo */
+.tech-article {
+  background: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#copyright{
-    color: #838383;
-    margin-top: 20px;
+.tech-article h1 {
+  margin-bottom: 15px;
+  color: #222;
 }
- /* end coder 6 */
 
- 
+.tech-article img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Coder 5: Servicios con Flexbox */
+.services {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  background-color: #f0f0f0;
+  padding: 15px;
+  flex: 1 1 250px;
+  border-radius: 8px;
+}
+
+/* Coder 6: Footer */
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.site-footer a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.site-footer address {
+  font-style: normal;
+  margin: 10px 0;
+  color: #bbb;
+}
+
+.site-footer .social {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
  /* start coder 25*/
  #riwi_logo{
     border-radius: 50%;
